@@ -11,13 +11,13 @@
 }
 
 .container {
-  max-width: 1200px;
-  padding: 0 16px;
-  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 
 .card {
-  margin: 100px auto;
   height: 500px;
   width: 300px;
   background-color: #f4f4f4;
